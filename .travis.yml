@@ -10,5 +10,10 @@ cache:
     - "node_modules"
 
 # scripts run as part of build
-script:
+scripts:
+    - npm install codecov -g
     - npm test
+
+after_success:
+  - codecov
+  - nyc report --reporter=json > coverage/coverage.json
