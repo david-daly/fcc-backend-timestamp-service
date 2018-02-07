@@ -11,9 +11,9 @@ cache:
 
 # scripts run as part of build
 scripts:
-    - npm install codecov -g
     - npm test
 
 after_success:
+  - npm install codecov -g
   - codecov
   - nyc report --reporter=json > coverage/coverage.json
