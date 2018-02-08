@@ -17,4 +17,4 @@ scripts:
 
 after_success:
   - nyc report --reporter=json > coverage/coverage.json
-  - sls deploy
+  - sls deploy || exit 1
