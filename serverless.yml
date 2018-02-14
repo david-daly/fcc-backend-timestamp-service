@@ -4,8 +4,8 @@ provider:
   name: aws
   runtime: nodejs6.10
   apiGateway:
-    restApiId: FCCBACKENDAPIGATEWAY
-    restApiRootResourceId: FCCBACKENDAPIGATEWAYROOTRESOURCEID
+    restApiId: 17d9c8lez4
+    restApiRootResourceId: 84hk7bf6hd
 
 functions:
   timestampMicroservice:
