@@ -5,6 +5,4 @@
 A repository to hold the Timestamp Microservice that is part of the FreeCodeCamp Backend 
 Certification.
 
-
-
-test
+Project is built using the serverless framework and is hosted on AWS Lambda.
